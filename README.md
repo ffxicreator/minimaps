@@ -26,21 +26,3 @@ The minimap appears on its own when you enter a supported zone.
 
 Drag the map to move it.
 
-## Adding content
-
-Each content folder has a `definition.lua` (see `MinimapDefinition` in `shared/minimap.lua`):
-
-- the zones it covers;
-- landmarks for working out which map you're on;
-- each map's image and calibration (`ref_world`, `ref_pixel`, scale);
-- the layers of dots to draw.
-
-Register it in `manager.lua`.
-
-## Tests
-
-```
-busted tests
-```
-
-Run from the addon folder; `tests/test_setup.lua` stands in for Windower.

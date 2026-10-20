@@ -1,0 +1,16 @@
+{
+    "runtime.version": "LuaJIT",
+    "diagnostics.globals": [
+        "windower",
+        "_addon"
+    ],
+    "diagnostics.disable": [
+        "deprecated"
+    ],
+    "workspace.checkThirdParty": false,
+    "workspace.library": [
+        "${workspaceFolder}/types",
+        "C:/Code_Repository/windower_addons/libs",
+        "${addons}/busted/module/library"
+    ]
+}

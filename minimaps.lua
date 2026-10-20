@@ -1,5 +1,5 @@
 _addon.name     = 'Minimaps'
-_addon.author   = 'ffxicreator'
+_addon.author   = 'Desertstorm'
 _addon.version  = '1.0.0'
 _addon.commands = { 'minimaps', 'mm' }
 
@@ -19,12 +19,12 @@ local function help()
         'Minimaps - commands act on the minimap for the zone you are in:',
         '  //mm show | hide',
         '  //mm zoom in | out | <value>',
-        '  //mm offset <x> <y>   - nudge this map by image pixels (not saved)',
-        '  //mm offsets          - list the offsets set this session',
-        '  //mm scale <x> [y]    - try a scale for every map of this content',
+        '  //mm offset <x> <y>   - nudge this map by image pixels (not saved) really only used for debugging',
+        '  //mm offsets          - list the offsets set this session (debugging)',
+        '  //mm scale <x> [y]    - try a scale for every map of this content (debugging)',
         '  //mm info             - widescan data for your target',
         '  //mm print            - every result of the last widescan',
-        '  //mm scan_interval <s>',
+        '  //mm scan_interval <s> changes how often a scan goes out.',
     }) do
         windower.add_to_chat(207, line)
     end
