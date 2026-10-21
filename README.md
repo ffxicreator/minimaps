@@ -1,6 +1,7 @@
 # Minimaps
+![Minimap in Nyzul Isle Investigation](docs/nyzulss.png)
 
-A Windower addon that shows a minimap for instanced content you can't see the map of in game: your position,
+A Windower addon that shows a minimap for instanced content you can't see the map of in game: tracks your position,
 party, nearby enemies (via widescan) and points of interest on each floor.
 
 Supported content:
